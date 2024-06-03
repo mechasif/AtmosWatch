@@ -1,0 +1,8 @@
+Air Quality =222PPM Hum.=55%
+Temp = 55C 55F H.index=27.50C F
+
+
+A.Q=303PPM H= 32.00%
+
+Feels like= 27.58C 
+Temp.=28.50C 83.30F 
