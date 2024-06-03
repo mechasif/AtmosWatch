@@ -1,6 +1,6 @@
 # DHT11 and MQ135 Sensor with LCD Display
 
-This project integrates a DHT11 temperature and humidity sensor, an MQ135 air quality sensor, and a LiquidCrystal_I2C LCD to display the sensor readings. The project utilizes an Arduino to read data from the sensors and display the readings on the LCD.
+This project integrates a DHT11 temperature and humidity sensor, an MQ135 air quality sensor, and a LiquidCrystal_I2C LCD to display the sensor readings. The project utilizes an ELEGOO UNO R3 equipped with an ATMega16U2 Processor, an 8-bit AVR® RISC-based microcontroller to read sensors' data and display the LCD readings.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -12,10 +12,10 @@ This project integrates a DHT11 temperature and humidity sensor, an MQ135 air qu
 - [License](#license)
 
 ## Introduction
-This project reads temperature, humidity, and air quality levels using the DHT11 and MQ135 sensors, and displays the data on a LiquidCrystal_I2C LCD. It is a simple yet effective way to monitor environmental conditions in real-time.
+This project reads temperature, humidity, and air quality levels using the DHT11 and MQ135 sensors, and displays the data on a LiquidCrystal_I2C LCD. It is a simple yet effective way to monitor environmental conditions in real time.
 
 ## Components
-- Arduino (any model)
+- ELEGOO UNO R3 (or, Arduino UNO R3)
 - DHT11 Temperature and Humidity Sensor
 - MQ135 Air Quality Sensor
 - LiquidCrystal_I2C LCD (20x4)
@@ -23,22 +23,23 @@ This project reads temperature, humidity, and air quality levels using the DHT11
 - Breadboard
 
 ## Circuit Diagram
-(Provide a diagram here showing how to connect the DHT11 sensor, MQ135 sensor, and the LCD to the Arduino.)
+![Circuit_Diagram](https://github.com/mechasif/DHT11-MQ135-LCD-Monitor/blob/main/Images/Circuit_Diagram.png)
+
 
 ## Installation
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/yourusername/DHT11-MQ135-LCD-Monitor.git
    ```
 2. **Install the necessary libraries:**
-   - [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C)
+   - [LiquidCrystal_I2C](https://github.com/johnrickman/LiquidCrystal_I2C)
    - [DHT sensor library](https://github.com/adafruit/DHT-sensor-library)
 
-3. **Open the project in your Arduino IDE and upload the code to your Arduino board.**
+3. **Open the project in your Arduino IDE and upload the code to your board.**
 
 ## Usage
-1. **Connect the components as per the circuit diagram.**
-2. **Power on the Arduino.**
+1. **Connect the components as per the circuit diagram for the LCD.**
+2. **Power on the Microcontroller.**
 3. **Observe the temperature, humidity, and air quality readings on the LCD.**
 
 ### Code Explanation
@@ -57,8 +58,7 @@ This project reads temperature, humidity, and air quality levels using the DHT11
 **Asif Ahmed**
 
 - **Email:** inbox.asifahmed@gmail.com
-- **LinkedIn:** [Asif Ahmed](https://www.linkedin.com/in/as-if-ah-med/)
-- **WhatsApp:** +8801551818291
+- **LinkedIn:** [Asif Ahmed](https://www.linkedin.com/in/mechasif/)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
