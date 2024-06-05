@@ -1,5 +1,4 @@
-# AtmosWatch
-# DHT11 and MQ135 Sensor with LCD Display
+# AtmosWatch: DHT11 and MQ135 Sensor with LCD Display
 
 This project integrates a DHT11 temperature and humidity sensor, an MQ135 air quality sensor, and a LiquidCrystal_I2C LCD to display the sensor readings. The project utilizes an ELEGOO UNO R3 equipped with an ATMega16U2 Processor, an 8-bit AVR® RISC-based microcontroller to read sensors' data and display the LCD readings.
 
