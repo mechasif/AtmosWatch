@@ -25,6 +25,10 @@ This project reads temperature, humidity, and air quality levels using the DHT11
 ## Circuit Diagram
 ![Circuit_Diagram](https://github.com/mechasif/DHT11-MQ135-LCD-Monitor/blob/main/Images/Circuit_Diagram.png)
 
+## The Project
+![Physical_Connections_1](https://github.com/mechasif/DHT11-MQ135-LCD-Monitor/blob/main/Images/Physical_Connections_1.png)
+
+![Physical_Connections_2](https://github.com/mechasif/DHT11-MQ135-LCD-Monitor/blob/main/Images/Physical_Connections_2.png)
 
 ## Installation
 1. **Clone the repository:**
